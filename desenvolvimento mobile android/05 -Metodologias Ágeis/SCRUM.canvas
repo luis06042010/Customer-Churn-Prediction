@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e55a3b2ea0753028","x":440,"y":-780,"width":960,"height":340,"color":"3","type":"text","text":"O Scrum é usado principalmente no **desenvolvimento de software**, mas sua aplicação se expandiu para diversas outras áreas. Atualmente, ele é utilizado em: \n- **Tecnologia da Informação (TI)** – Desenvolvimento de softwares, aplicativos, sistemas e manutenção de produtos digitais.\n    \n- **Marketing** – Gestão de campanhas, produção de conteúdo e projetos criativos com foco em entrega iterativa.\n    \n- **Educação** – Planejamento de aulas, desenvolvimento de cursos e gestão de projetos acadêmicos.\n    \n- **Engenharia e Design de Produtos** – Criação de protótipos, testes e lançamento de novos produtos.\n    \n- **Recursos Humanos (RH)** – Recrutamento, desenvolvimento de talentos e projetos de cultura organizacional.\n    \n- **Serviços financeiros e bancários** – Melhoria de processos, desenvolvimento de soluções digitais e produtos financeiros.\n    \n- **Startups e Inovação** – Lançamento rápido de MVPs (produtos mínimos viáveis) e adaptação ao feedback do mercado.\n    \n- **Saúde** – Projetos de melhoria de processos hospitalares, tecnologia médica e gestão de equipes."},
+		{"id":"f40c7a21b1a07cf6","x":-546,"y":-737,"width":571,"height":255,"color":"1","type":"text","text":"AFormalização e aApresentação Pública (1995)  \n\n\nEm 1995, Ken Schwaber e Jeff Sutherland apresentaram oficialmente o \"Scrum Development Process\" na conferência OOPSLA, em Austin, Texas. Foi a primeira vez que o Scrum foi divulgado publicamente como um framework estruturado, com definição clara de papéis (como Scrum Master), artefatos (como Product Backlog) e eventos (como Sprint e Daily Scrum), que permanecem essenciais até hoje."},
+		{"id":"fe75e64fc64d706d","x":240,"y":-160,"width":120,"height":50,"color":"5","type":"text","text":"SCRUM"}
+	],
+	"edges":[
+		{"id":"e45742be6a637e31","fromNode":"fe75e64fc64d706d","fromSide":"bottom","toNode":"f40c7a21b1a07cf6","toSide":"top","color":"1"},
+		{"id":"a0f862548e9d2b56","fromNode":"fe75e64fc64d706d","fromSide":"top","toNode":"e55a3b2ea0753028","toSide":"bottom","color":"3"}
+	]
+}

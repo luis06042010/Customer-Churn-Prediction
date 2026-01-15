@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"53e50369e5452773","x":-100,"y":-60,"width":250,"height":60,"color":"#ff0000","type":"text","text":"XP"},
+		{"id":"408a217de5ae356b","x":-1000,"y":-600,"width":900,"height":240,"color":"#000000","type":"text","text":"Os valores centrais do Scrum incluem:\n- **Comunicação**: Priorização da interação cara a cara, programação em par e presença ativa do cliente na equipe.\n    \n- **Simplicidade**: Fazer apenas o necessário, evitando complexidade (princípio YAGNI – \"You Ain't Gonna Need It\").\n    \n- **Feedback**: Buscar retorno constante e rápido, por meio de testes, entregas frequentes e diálogo direto com o cliente.\n    \n- **Coragem**: Enfrentar mudanças, refatorar código, admitir dificuldades e ajustar o processo quando necessário.\n    \n- **Respeito**: Valorização dos colegas, do cliente, do código e do trabalho realizado (valor adicionado depois)."},
+		{"id":"4d0d450a3926367d","x":280,"y":-605,"width":606,"height":325,"color":"#0062ff","type":"text","text":"Esses valores se traduzem em práticas interligadas, como:\n- **Planning Game**: Planejamento colaborativo entre desenvolvedores e clientes para definir o que será feito nas próximas iterações.\n    \n- **Small Releases**: Entregas frequentes de versões funcionais do software, em ciclos curtos.\n    \n- **System Metaphor**: Uma narrativa simples e compartilhada que ajuda a entender como o sistema funciona.\n    \n- **Simple Design**: Design mantido o mais simples possível, focado apenas nos requisitos atuais.\n    \n- **Test-Driven Development (TDD)**: Escrita de testes automatizados antes do código de produção, garantindo qualidade desde o início."},
+		{"id":"f8a22bb016e9dc4f","x":360,"y":-60,"width":599,"height":338,"color":"1","type":"text","text":"Outras práticas importantes incluem:\n\n- **Refactoring**: Melhorar continuamente o design do código sem mudar seu comportamento externo.\n    \n- **Pair Programming**: Dois programadores trabalham juntos, um escreve o código enquanto o outro revisa e orienta.\n    \n- **Collective Code Ownership**: Todo membro da equipe pode modificar qualquer parte do código, promovendo responsabilidade compartilhada."}
+	],
+	"edges":[
+		{"id":"c45fa5706e33c1f1","fromNode":"53e50369e5452773","fromSide":"top","toNode":"408a217de5ae356b","toSide":"bottom","color":"#000000"},
+		{"id":"7149b26937e98d0e","fromNode":"408a217de5ae356b","fromSide":"right","toNode":"4d0d450a3926367d","toSide":"left","color":"#007bff"},
+		{"id":"89414205831b1248","fromNode":"4d0d450a3926367d","fromSide":"bottom","toNode":"f8a22bb016e9dc4f","toSide":"top","color":"#ffdd00"},
+		{"id":"81f3b4eb74ac99b0","fromNode":"f8a22bb016e9dc4f","fromSide":"left","toNode":"53e50369e5452773","toSide":"bottom","color":"6"}
+	]
+}
